@@ -1,0 +1,62 @@
+*{
+    font-family: "Malgun Gothic", sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    height: 50%;
+    background-image: url("../b.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.banner > .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner > .container > h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner > .container > h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner > .container > .btn{
+    width: 122px;
+    height: 43px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner a{
+    width: 122px;
+    height: 43px;
+    padding: 10px;
+    font-size: 16px;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+}
