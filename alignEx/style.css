@@ -1,0 +1,49 @@
+.outer{
+    color: white;
+    background-color: red;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.inner{
+    width: 300px;
+    background-color: green;
+    min-height: 20px;
+}
+
+/*=================================
+** 1. 텍스트가 한 줄일 경우
+ ==================================*/
+.block1 > .inner{
+    line-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*=================================
+** 2. position 속성을 이용한 위치 제어
+ ==================================*/
+.block2{
+    position: relative;
+}
+
+.block2 > .inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -10px;
+}
+/*=================================
+** 3. position과 transform을 이용한 위치제어
+ ==================================*/
+.block3{
+    position: relative;
+}
+
+.block3 > .inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
