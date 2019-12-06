@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    background: url("../b.jpg") rgba(0, 0, 0, 0.5) no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.wrap .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+.wrap .contents{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap .contents h1 {
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+}
+
+.wrap .contents h2{
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.wrap .contents hr{
+    height: 3px;
+    background: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.wrap .contents a{
+    width: 187px;
+    height: 53px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, serif;
+    display: inline-block;
+    line-height: 53px;
+    border: 2px solid white;
+}
