@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, p {
+    margin: 0;
+}
+
+body {
+    background: #63b47a;
+    font-family: "Malgun Gothic", Arial, sans-serif;
+}
+
+.login {
+    width: 330px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 25px;
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 23px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.login input {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.login button {
+    width: 100%;
+    background: red;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.login p {
+    font-size: 16px;
+}
