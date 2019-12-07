@@ -1,0 +1,39 @@
+.horizontal-nav {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid gray;
+    text-align: center;
+    width: 50%;
+
+}
+
+.horizontal-nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.horizontal-nav li {
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+
+.horizontal-nav li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
+    border-right: 1px solid gray;
+}
+
+.horizontal-nav li a.bn {
+    border-right: none;
+}
+
+.horizontal-nav li a:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
