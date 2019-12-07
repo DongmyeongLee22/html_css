@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.banner-container {
+    background-color: #386E38;
+    line-height: 1;
+}
+
+.banner .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.banner hr {
+    width: 400px;
+    height: 3px;
+    background: white;
+    margin: 50px auto;
+}
+
+.banner a {
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    background: transparent;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.main h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.main p {
+    font-family: Arial, serif;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.main h2 {
+    font-family: Arial, serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.main .picture_list {
+
+}
+
+.main .picture_list li {
+    list-style: none;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.main .picture_list img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main .picture_list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
